@@ -1,0 +1,14 @@
+touch index.js
+git init
+touch .gitignore
+    |- node_modules/
+
+git remote add origin https://github.com/rushilukka/NodeJS-Mini-Projects.git
+git branch -M main
+
+git add .
+git commit -m"commit"
+git push -u origin main
+
+========================================================================
+npm i express
