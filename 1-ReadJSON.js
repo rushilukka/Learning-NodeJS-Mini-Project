@@ -1,6 +1,9 @@
+//      1-ReadJSON
 
 const fs = require('fs');
 
+
+const fun = () => {
 // Asynchronous reading
 fs.readFile('data.json', 'utf8', (err, data) => {
   if (err) {
@@ -19,3 +22,10 @@ try {
 } catch (err) {
   console.error(err);
 }
+
+
+};
+
+module.exports = {
+    fun
+};
