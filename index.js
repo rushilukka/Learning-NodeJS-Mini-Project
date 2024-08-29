@@ -1,3 +1,3 @@
-const ifun = require('./1-ReadJSON');
+const ifun = require('./2-AppendJSONL.js');
 
 ifun.fun();

@@ -1,9 +1,14 @@
 touch index.js
+npm init -y
+
+======================================================================
 git init
+
 touch .gitignore
     |- node_modules/
 
 git remote add origin https://github.com/rushilukka/NodeJS-Mini-Projects.git
+git remote set-url origin https://github.com/rushilukka/NodeJS-Mini-Projects.git
 git branch -M main
 
 git add .
@@ -11,4 +16,14 @@ git commit -m"commit"
 git push -u origin main
 
 ========================================================================
+scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+}
+
+npm start || npm run start
+
+
+========================================================================
 npm i express
+npm i nodemon
